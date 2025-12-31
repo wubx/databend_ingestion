@@ -1,0 +1,1392 @@
+2000 insert
+Mode=INSERT, totalRows=2000000, batchSize=2000
+INSERT: written=20000 rows
+INSERT: written=40000 rows
+INSERT: written=60000 rows
+INSERT: written=80000 rows
+INSERT: written=100000 rows
+INSERT: written=120000 rows
+INSERT: written=140000 rows
+INSERT: written=160000 rows
+INSERT: written=180000 rows
+INSERT: written=200000 rows
+INSERT: written=220000 rows
+INSERT: written=240000 rows
+INSERT: written=260000 rows
+INSERT: written=280000 rows
+INSERT: written=300000 rows
+INSERT: written=320000 rows
+INSERT: written=340000 rows
+INSERT: written=360000 rows
+INSERT: written=380000 rows
+INSERT: written=400000 rows
+INSERT: written=420000 rows
+INSERT: written=440000 rows
+INSERT: written=460000 rows
+INSERT: written=480000 rows
+INSERT: written=500000 rows
+INSERT: written=520000 rows
+INSERT: written=540000 rows
+INSERT: written=560000 rows
+INSERT: written=580000 rows
+INSERT: written=600000 rows
+INSERT: written=620000 rows
+INSERT: written=640000 rows
+INSERT: written=660000 rows
+INSERT: written=680000 rows
+INSERT: written=700000 rows
+INSERT: written=720000 rows
+INSERT: written=740000 rows
+INSERT: written=760000 rows
+INSERT: written=780000 rows
+INSERT: written=800000 rows
+INSERT: written=820000 rows
+INSERT: written=840000 rows
+INSERT: written=860000 rows
+INSERT: written=880000 rows
+INSERT: written=900000 rows
+INSERT: written=920000 rows
+INSERT: written=940000 rows
+INSERT: written=960000 rows
+INSERT: written=980000 rows
+INSERT: written=1000000 rows
+INSERT: written=1020000 rows
+INSERT: written=1040000 rows
+INSERT: written=1060000 rows
+INSERT: written=1080000 rows
+INSERT: written=1100000 rows
+INSERT: written=1120000 rows
+INSERT: written=1140000 rows
+INSERT: written=1160000 rows
+INSERT: written=1180000 rows
+INSERT: written=1200000 rows
+INSERT: written=1220000 rows
+INSERT: written=1240000 rows
+INSERT: written=1260000 rows
+INSERT: written=1280000 rows
+INSERT: written=1300000 rows
+INSERT: written=1320000 rows
+INSERT: written=1340000 rows
+INSERT: written=1360000 rows
+INSERT: written=1380000 rows
+INSERT: written=1400000 rows
+INSERT: written=1420000 rows
+INSERT: written=1440000 rows
+INSERT: written=1460000 rows
+INSERT: written=1480000 rows
+INSERT: written=1500000 rows
+INSERT: written=1520000 rows
+INSERT: written=1540000 rows
+INSERT: written=1560000 rows
+INSERT: written=1580000 rows
+INSERT: written=1600000 rows
+INSERT: written=1620000 rows
+INSERT: written=1640000 rows
+INSERT: written=1660000 rows
+INSERT: written=1680000 rows
+INSERT: written=1700000 rows
+INSERT: written=1720000 rows
+INSERT: written=1740000 rows
+INSERT: written=1760000 rows
+INSERT: written=1780000 rows
+INSERT: written=1800000 rows
+INSERT: written=1820000 rows
+INSERT: written=1840000 rows
+INSERT: written=1860000 rows
+INSERT: written=1880000 rows
+INSERT: written=1900000 rows
+INSERT: written=1920000 rows
+INSERT: written=1940000 rows
+INSERT: written=1960000 rows
+INSERT: written=1980000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=544.98s, rows/s=3670
+Finished mode=INSERT, totalRows=2000000, cost=572.67s, rows/s=3492
+2000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=2000
+INSERT_NO_PRESIGN: written=20000 rows
+INSERT_NO_PRESIGN: written=40000 rows
+INSERT_NO_PRESIGN: written=60000 rows
+INSERT_NO_PRESIGN: written=80000 rows
+INSERT_NO_PRESIGN: written=100000 rows
+INSERT_NO_PRESIGN: written=120000 rows
+INSERT_NO_PRESIGN: written=140000 rows
+INSERT_NO_PRESIGN: written=160000 rows
+INSERT_NO_PRESIGN: written=180000 rows
+INSERT_NO_PRESIGN: written=200000 rows
+INSERT_NO_PRESIGN: written=220000 rows
+INSERT_NO_PRESIGN: written=240000 rows
+INSERT_NO_PRESIGN: written=260000 rows
+INSERT_NO_PRESIGN: written=280000 rows
+INSERT_NO_PRESIGN: written=300000 rows
+INSERT_NO_PRESIGN: written=320000 rows
+INSERT_NO_PRESIGN: written=340000 rows
+INSERT_NO_PRESIGN: written=360000 rows
+INSERT_NO_PRESIGN: written=380000 rows
+INSERT_NO_PRESIGN: written=400000 rows
+INSERT_NO_PRESIGN: written=420000 rows
+INSERT_NO_PRESIGN: written=440000 rows
+INSERT_NO_PRESIGN: written=460000 rows
+INSERT_NO_PRESIGN: written=480000 rows
+INSERT_NO_PRESIGN: written=500000 rows
+INSERT_NO_PRESIGN: written=520000 rows
+INSERT_NO_PRESIGN: written=540000 rows
+INSERT_NO_PRESIGN: written=560000 rows
+INSERT_NO_PRESIGN: written=580000 rows
+INSERT_NO_PRESIGN: written=600000 rows
+INSERT_NO_PRESIGN: written=620000 rows
+INSERT_NO_PRESIGN: written=640000 rows
+INSERT_NO_PRESIGN: written=660000 rows
+INSERT_NO_PRESIGN: written=680000 rows
+INSERT_NO_PRESIGN: written=700000 rows
+INSERT_NO_PRESIGN: written=720000 rows
+INSERT_NO_PRESIGN: written=740000 rows
+INSERT_NO_PRESIGN: written=760000 rows
+INSERT_NO_PRESIGN: written=780000 rows
+INSERT_NO_PRESIGN: written=800000 rows
+INSERT_NO_PRESIGN: written=820000 rows
+INSERT_NO_PRESIGN: written=840000 rows
+INSERT_NO_PRESIGN: written=860000 rows
+INSERT_NO_PRESIGN: written=880000 rows
+INSERT_NO_PRESIGN: written=900000 rows
+INSERT_NO_PRESIGN: written=920000 rows
+INSERT_NO_PRESIGN: written=940000 rows
+INSERT_NO_PRESIGN: written=960000 rows
+INSERT_NO_PRESIGN: written=980000 rows
+INSERT_NO_PRESIGN: written=1000000 rows
+INSERT_NO_PRESIGN: written=1020000 rows
+INSERT_NO_PRESIGN: written=1040000 rows
+INSERT_NO_PRESIGN: written=1060000 rows
+INSERT_NO_PRESIGN: written=1080000 rows
+INSERT_NO_PRESIGN: written=1100000 rows
+INSERT_NO_PRESIGN: written=1120000 rows
+INSERT_NO_PRESIGN: written=1140000 rows
+INSERT_NO_PRESIGN: written=1160000 rows
+INSERT_NO_PRESIGN: written=1180000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1220000 rows
+INSERT_NO_PRESIGN: written=1240000 rows
+INSERT_NO_PRESIGN: written=1260000 rows
+INSERT_NO_PRESIGN: written=1280000 rows
+INSERT_NO_PRESIGN: written=1300000 rows
+INSERT_NO_PRESIGN: written=1320000 rows
+INSERT_NO_PRESIGN: written=1340000 rows
+INSERT_NO_PRESIGN: written=1360000 rows
+INSERT_NO_PRESIGN: written=1380000 rows
+INSERT_NO_PRESIGN: written=1400000 rows
+INSERT_NO_PRESIGN: written=1420000 rows
+INSERT_NO_PRESIGN: written=1440000 rows
+INSERT_NO_PRESIGN: written=1460000 rows
+INSERT_NO_PRESIGN: written=1480000 rows
+INSERT_NO_PRESIGN: written=1500000 rows
+INSERT_NO_PRESIGN: written=1520000 rows
+INSERT_NO_PRESIGN: written=1540000 rows
+INSERT_NO_PRESIGN: written=1560000 rows
+INSERT_NO_PRESIGN: written=1580000 rows
+INSERT_NO_PRESIGN: written=1600000 rows
+INSERT_NO_PRESIGN: written=1620000 rows
+INSERT_NO_PRESIGN: written=1640000 rows
+INSERT_NO_PRESIGN: written=1660000 rows
+INSERT_NO_PRESIGN: written=1680000 rows
+INSERT_NO_PRESIGN: written=1700000 rows
+INSERT_NO_PRESIGN: written=1720000 rows
+INSERT_NO_PRESIGN: written=1740000 rows
+INSERT_NO_PRESIGN: written=1760000 rows
+INSERT_NO_PRESIGN: written=1780000 rows
+INSERT_NO_PRESIGN: written=1800000 rows
+INSERT_NO_PRESIGN: written=1820000 rows
+INSERT_NO_PRESIGN: written=1840000 rows
+INSERT_NO_PRESIGN: written=1860000 rows
+INSERT_NO_PRESIGN: written=1880000 rows
+INSERT_NO_PRESIGN: written=1900000 rows
+INSERT_NO_PRESIGN: written=1920000 rows
+INSERT_NO_PRESIGN: written=1940000 rows
+INSERT_NO_PRESIGN: written=1960000 rows
+INSERT_NO_PRESIGN: written=1980000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=509.00s, rows/s=3929
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=537.09s, rows/s=3724
+2000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=2000
+STREAMING_LOAD: written=20000 rows
+STREAMING_LOAD: written=40000 rows
+STREAMING_LOAD: written=60000 rows
+STREAMING_LOAD: written=80000 rows
+STREAMING_LOAD: written=100000 rows
+STREAMING_LOAD: written=120000 rows
+STREAMING_LOAD: written=140000 rows
+STREAMING_LOAD: written=160000 rows
+STREAMING_LOAD: written=180000 rows
+STREAMING_LOAD: written=200000 rows
+STREAMING_LOAD: written=220000 rows
+STREAMING_LOAD: written=240000 rows
+STREAMING_LOAD: written=260000 rows
+STREAMING_LOAD: written=280000 rows
+STREAMING_LOAD: written=300000 rows
+STREAMING_LOAD: written=320000 rows
+STREAMING_LOAD: written=340000 rows
+STREAMING_LOAD: written=360000 rows
+STREAMING_LOAD: written=380000 rows
+STREAMING_LOAD: written=400000 rows
+STREAMING_LOAD: written=420000 rows
+STREAMING_LOAD: written=440000 rows
+STREAMING_LOAD: written=460000 rows
+STREAMING_LOAD: written=480000 rows
+STREAMING_LOAD: written=500000 rows
+STREAMING_LOAD: written=520000 rows
+STREAMING_LOAD: written=540000 rows
+STREAMING_LOAD: written=560000 rows
+STREAMING_LOAD: written=580000 rows
+STREAMING_LOAD: written=600000 rows
+STREAMING_LOAD: written=620000 rows
+STREAMING_LOAD: written=640000 rows
+STREAMING_LOAD: written=660000 rows
+STREAMING_LOAD: written=680000 rows
+STREAMING_LOAD: written=700000 rows
+STREAMING_LOAD: written=720000 rows
+STREAMING_LOAD: written=740000 rows
+STREAMING_LOAD: written=760000 rows
+STREAMING_LOAD: written=780000 rows
+STREAMING_LOAD: written=800000 rows
+STREAMING_LOAD: written=820000 rows
+STREAMING_LOAD: written=840000 rows
+STREAMING_LOAD: written=860000 rows
+STREAMING_LOAD: written=880000 rows
+STREAMING_LOAD: written=900000 rows
+STREAMING_LOAD: written=920000 rows
+STREAMING_LOAD: written=940000 rows
+STREAMING_LOAD: written=960000 rows
+STREAMING_LOAD: written=980000 rows
+STREAMING_LOAD: written=1000000 rows
+STREAMING_LOAD: written=1020000 rows
+STREAMING_LOAD: written=1040000 rows
+STREAMING_LOAD: written=1060000 rows
+STREAMING_LOAD: written=1080000 rows
+STREAMING_LOAD: written=1100000 rows
+STREAMING_LOAD: written=1120000 rows
+STREAMING_LOAD: written=1140000 rows
+STREAMING_LOAD: written=1160000 rows
+STREAMING_LOAD: written=1180000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1220000 rows
+STREAMING_LOAD: written=1240000 rows
+STREAMING_LOAD: written=1260000 rows
+STREAMING_LOAD: written=1280000 rows
+STREAMING_LOAD: written=1300000 rows
+STREAMING_LOAD: written=1320000 rows
+STREAMING_LOAD: written=1340000 rows
+STREAMING_LOAD: written=1360000 rows
+STREAMING_LOAD: written=1380000 rows
+STREAMING_LOAD: written=1400000 rows
+STREAMING_LOAD: written=1420000 rows
+STREAMING_LOAD: written=1440000 rows
+STREAMING_LOAD: written=1460000 rows
+STREAMING_LOAD: written=1480000 rows
+STREAMING_LOAD: written=1500000 rows
+STREAMING_LOAD: written=1520000 rows
+STREAMING_LOAD: written=1540000 rows
+STREAMING_LOAD: written=1560000 rows
+STREAMING_LOAD: written=1580000 rows
+STREAMING_LOAD: written=1600000 rows
+STREAMING_LOAD: written=1620000 rows
+STREAMING_LOAD: written=1640000 rows
+STREAMING_LOAD: written=1660000 rows
+STREAMING_LOAD: written=1680000 rows
+STREAMING_LOAD: written=1700000 rows
+STREAMING_LOAD: written=1720000 rows
+STREAMING_LOAD: written=1740000 rows
+STREAMING_LOAD: written=1760000 rows
+STREAMING_LOAD: written=1780000 rows
+STREAMING_LOAD: written=1800000 rows
+STREAMING_LOAD: written=1820000 rows
+STREAMING_LOAD: written=1840000 rows
+STREAMING_LOAD: written=1860000 rows
+STREAMING_LOAD: written=1880000 rows
+STREAMING_LOAD: written=1900000 rows
+STREAMING_LOAD: written=1920000 rows
+STREAMING_LOAD: written=1940000 rows
+STREAMING_LOAD: written=1960000 rows
+STREAMING_LOAD: written=1980000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=287.42s, rows/s=6958
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=323.16s, rows/s=6189
+2000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=2000
+STAGE_LOAD_WRITE: batches=10, generated=20000 rows
+STAGE_LOAD_WRITE: batches=20, generated=40000 rows
+STAGE_LOAD_WRITE: batches=30, generated=60000 rows
+STAGE_LOAD_WRITE: batches=40, generated=80000 rows
+STAGE_LOAD_WRITE: batches=50, generated=100000 rows
+STAGE_LOAD_WRITE: batches=60, generated=120000 rows
+STAGE_LOAD_WRITE: batches=70, generated=140000 rows
+STAGE_LOAD_WRITE: batches=80, generated=160000 rows
+STAGE_LOAD_WRITE: batches=90, generated=180000 rows
+STAGE_LOAD_WRITE: batches=100, generated=200000 rows
+STAGE_LOAD_WRITE: batches=110, generated=220000 rows
+STAGE_LOAD_WRITE: batches=120, generated=240000 rows
+STAGE_LOAD_WRITE: batches=130, generated=260000 rows
+STAGE_LOAD_WRITE: batches=140, generated=280000 rows
+STAGE_LOAD_WRITE: batches=150, generated=300000 rows
+STAGE_LOAD_WRITE: batches=160, generated=320000 rows
+STAGE_LOAD_WRITE: batches=170, generated=340000 rows
+STAGE_LOAD_WRITE: batches=180, generated=360000 rows
+STAGE_LOAD_WRITE: batches=190, generated=380000 rows
+STAGE_LOAD_WRITE: batches=200, generated=400000 rows
+STAGE_LOAD_WRITE: batches=210, generated=420000 rows
+STAGE_LOAD_WRITE: batches=220, generated=440000 rows
+STAGE_LOAD_WRITE: batches=230, generated=460000 rows
+STAGE_LOAD_WRITE: batches=240, generated=480000 rows
+STAGE_LOAD_WRITE: batches=250, generated=500000 rows
+STAGE_LOAD_WRITE: batches=260, generated=520000 rows
+STAGE_LOAD_WRITE: batches=270, generated=540000 rows
+STAGE_LOAD_WRITE: batches=280, generated=560000 rows
+STAGE_LOAD_WRITE: batches=290, generated=580000 rows
+STAGE_LOAD_WRITE: batches=300, generated=600000 rows
+STAGE_LOAD_WRITE: batches=310, generated=620000 rows
+STAGE_LOAD_WRITE: batches=320, generated=640000 rows
+STAGE_LOAD_WRITE: batches=330, generated=660000 rows
+STAGE_LOAD_WRITE: batches=340, generated=680000 rows
+STAGE_LOAD_WRITE: batches=350, generated=700000 rows
+STAGE_LOAD_WRITE: batches=360, generated=720000 rows
+STAGE_LOAD_WRITE: batches=370, generated=740000 rows
+STAGE_LOAD_WRITE: batches=380, generated=760000 rows
+STAGE_LOAD_WRITE: batches=390, generated=780000 rows
+STAGE_LOAD_WRITE: batches=400, generated=800000 rows
+STAGE_LOAD_WRITE: batches=410, generated=820000 rows
+STAGE_LOAD_WRITE: batches=420, generated=840000 rows
+STAGE_LOAD_WRITE: batches=430, generated=860000 rows
+STAGE_LOAD_WRITE: batches=440, generated=880000 rows
+STAGE_LOAD_WRITE: batches=450, generated=900000 rows
+STAGE_LOAD_WRITE: batches=460, generated=920000 rows
+STAGE_LOAD_WRITE: batches=470, generated=940000 rows
+STAGE_LOAD_WRITE: batches=480, generated=960000 rows
+STAGE_LOAD_WRITE: batches=490, generated=980000 rows
+STAGE_LOAD_WRITE: batches=500, generated=1000000 rows
+STAGE_LOAD_WRITE: batches=510, generated=1020000 rows
+STAGE_LOAD_WRITE: batches=520, generated=1040000 rows
+STAGE_LOAD_WRITE: batches=530, generated=1060000 rows
+STAGE_LOAD_WRITE: batches=540, generated=1080000 rows
+STAGE_LOAD_WRITE: batches=550, generated=1100000 rows
+STAGE_LOAD_WRITE: batches=560, generated=1120000 rows
+STAGE_LOAD_WRITE: batches=570, generated=1140000 rows
+STAGE_LOAD_WRITE: batches=580, generated=1160000 rows
+STAGE_LOAD_WRITE: batches=590, generated=1180000 rows
+STAGE_LOAD_WRITE: batches=600, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=610, generated=1220000 rows
+STAGE_LOAD_WRITE: batches=620, generated=1240000 rows
+STAGE_LOAD_WRITE: batches=630, generated=1260000 rows
+STAGE_LOAD_WRITE: batches=640, generated=1280000 rows
+STAGE_LOAD_WRITE: batches=650, generated=1300000 rows
+STAGE_LOAD_WRITE: batches=660, generated=1320000 rows
+STAGE_LOAD_WRITE: batches=670, generated=1340000 rows
+STAGE_LOAD_WRITE: batches=680, generated=1360000 rows
+STAGE_LOAD_WRITE: batches=690, generated=1380000 rows
+STAGE_LOAD_WRITE: batches=700, generated=1400000 rows
+STAGE_LOAD_WRITE: batches=710, generated=1420000 rows
+STAGE_LOAD_WRITE: batches=720, generated=1440000 rows
+STAGE_LOAD_WRITE: batches=730, generated=1460000 rows
+STAGE_LOAD_WRITE: batches=740, generated=1480000 rows
+STAGE_LOAD_WRITE: batches=750, generated=1500000 rows
+STAGE_LOAD_WRITE: batches=760, generated=1520000 rows
+STAGE_LOAD_WRITE: batches=770, generated=1540000 rows
+STAGE_LOAD_WRITE: batches=780, generated=1560000 rows
+STAGE_LOAD_WRITE: batches=790, generated=1580000 rows
+STAGE_LOAD_WRITE: batches=800, generated=1600000 rows
+STAGE_LOAD_WRITE: batches=810, generated=1620000 rows
+STAGE_LOAD_WRITE: batches=820, generated=1640000 rows
+STAGE_LOAD_WRITE: batches=830, generated=1660000 rows
+STAGE_LOAD_WRITE: batches=840, generated=1680000 rows
+STAGE_LOAD_WRITE: batches=850, generated=1700000 rows
+STAGE_LOAD_WRITE: batches=860, generated=1720000 rows
+STAGE_LOAD_WRITE: batches=870, generated=1740000 rows
+STAGE_LOAD_WRITE: batches=880, generated=1760000 rows
+STAGE_LOAD_WRITE: batches=890, generated=1780000 rows
+STAGE_LOAD_WRITE: batches=900, generated=1800000 rows
+STAGE_LOAD_WRITE: batches=910, generated=1820000 rows
+STAGE_LOAD_WRITE: batches=920, generated=1840000 rows
+STAGE_LOAD_WRITE: batches=930, generated=1860000 rows
+STAGE_LOAD_WRITE: batches=940, generated=1880000 rows
+STAGE_LOAD_WRITE: batches=950, generated=1900000 rows
+STAGE_LOAD_WRITE: batches=960, generated=1920000 rows
+STAGE_LOAD_WRITE: batches=970, generated=1940000 rows
+STAGE_LOAD_WRITE: batches=980, generated=1960000 rows
+STAGE_LOAD_WRITE: batches=990, generated=1980000 rows
+STAGE_LOAD_WRITE: batches=1000, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=1000, writeCost=24.42s, copyCost=4.32s, totalCost=28.75s, copyRows/s=462545
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=64.34s, rows/s=31084
+3000 insert
+Mode=INSERT, totalRows=2000000, batchSize=3000
+INSERT: written=30000 rows
+INSERT: written=60000 rows
+INSERT: written=90000 rows
+INSERT: written=120000 rows
+INSERT: written=150000 rows
+INSERT: written=180000 rows
+INSERT: written=210000 rows
+INSERT: written=240000 rows
+INSERT: written=270000 rows
+INSERT: written=300000 rows
+INSERT: written=330000 rows
+INSERT: written=360000 rows
+INSERT: written=390000 rows
+INSERT: written=420000 rows
+INSERT: written=450000 rows
+INSERT: written=480000 rows
+INSERT: written=510000 rows
+INSERT: written=540000 rows
+INSERT: written=570000 rows
+INSERT: written=600000 rows
+INSERT: written=630000 rows
+INSERT: written=660000 rows
+INSERT: written=690000 rows
+INSERT: written=720000 rows
+INSERT: written=750000 rows
+INSERT: written=780000 rows
+INSERT: written=810000 rows
+INSERT: written=840000 rows
+INSERT: written=870000 rows
+INSERT: written=900000 rows
+INSERT: written=930000 rows
+INSERT: written=960000 rows
+INSERT: written=990000 rows
+INSERT: written=1020000 rows
+INSERT: written=1050000 rows
+INSERT: written=1080000 rows
+INSERT: written=1110000 rows
+INSERT: written=1140000 rows
+INSERT: written=1170000 rows
+INSERT: written=1200000 rows
+INSERT: written=1230000 rows
+INSERT: written=1260000 rows
+INSERT: written=1290000 rows
+INSERT: written=1320000 rows
+INSERT: written=1350000 rows
+INSERT: written=1380000 rows
+INSERT: written=1410000 rows
+INSERT: written=1440000 rows
+INSERT: written=1470000 rows
+INSERT: written=1500000 rows
+INSERT: written=1530000 rows
+INSERT: written=1560000 rows
+INSERT: written=1590000 rows
+INSERT: written=1620000 rows
+INSERT: written=1650000 rows
+INSERT: written=1680000 rows
+INSERT: written=1710000 rows
+INSERT: written=1740000 rows
+INSERT: written=1770000 rows
+INSERT: written=1800000 rows
+INSERT: written=1830000 rows
+INSERT: written=1860000 rows
+INSERT: written=1890000 rows
+INSERT: written=1920000 rows
+INSERT: written=1950000 rows
+INSERT: written=1980000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=380.35s, rows/s=5258
+Finished mode=INSERT, totalRows=2000000, cost=408.70s, rows/s=4894
+3000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=3000
+INSERT_NO_PRESIGN: written=30000 rows
+INSERT_NO_PRESIGN: written=60000 rows
+INSERT_NO_PRESIGN: written=90000 rows
+INSERT_NO_PRESIGN: written=120000 rows
+INSERT_NO_PRESIGN: written=150000 rows
+INSERT_NO_PRESIGN: written=180000 rows
+INSERT_NO_PRESIGN: written=210000 rows
+INSERT_NO_PRESIGN: written=240000 rows
+INSERT_NO_PRESIGN: written=270000 rows
+INSERT_NO_PRESIGN: written=300000 rows
+INSERT_NO_PRESIGN: written=330000 rows
+INSERT_NO_PRESIGN: written=360000 rows
+INSERT_NO_PRESIGN: written=390000 rows
+INSERT_NO_PRESIGN: written=420000 rows
+INSERT_NO_PRESIGN: written=450000 rows
+INSERT_NO_PRESIGN: written=480000 rows
+INSERT_NO_PRESIGN: written=510000 rows
+INSERT_NO_PRESIGN: written=540000 rows
+INSERT_NO_PRESIGN: written=570000 rows
+INSERT_NO_PRESIGN: written=600000 rows
+INSERT_NO_PRESIGN: written=630000 rows
+INSERT_NO_PRESIGN: written=660000 rows
+INSERT_NO_PRESIGN: written=690000 rows
+INSERT_NO_PRESIGN: written=720000 rows
+INSERT_NO_PRESIGN: written=750000 rows
+INSERT_NO_PRESIGN: written=780000 rows
+INSERT_NO_PRESIGN: written=810000 rows
+INSERT_NO_PRESIGN: written=840000 rows
+INSERT_NO_PRESIGN: written=870000 rows
+INSERT_NO_PRESIGN: written=900000 rows
+INSERT_NO_PRESIGN: written=930000 rows
+INSERT_NO_PRESIGN: written=960000 rows
+INSERT_NO_PRESIGN: written=990000 rows
+INSERT_NO_PRESIGN: written=1020000 rows
+INSERT_NO_PRESIGN: written=1050000 rows
+INSERT_NO_PRESIGN: written=1080000 rows
+INSERT_NO_PRESIGN: written=1110000 rows
+INSERT_NO_PRESIGN: written=1140000 rows
+INSERT_NO_PRESIGN: written=1170000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1230000 rows
+INSERT_NO_PRESIGN: written=1260000 rows
+INSERT_NO_PRESIGN: written=1290000 rows
+INSERT_NO_PRESIGN: written=1320000 rows
+INSERT_NO_PRESIGN: written=1350000 rows
+INSERT_NO_PRESIGN: written=1380000 rows
+INSERT_NO_PRESIGN: written=1410000 rows
+INSERT_NO_PRESIGN: written=1440000 rows
+INSERT_NO_PRESIGN: written=1470000 rows
+INSERT_NO_PRESIGN: written=1500000 rows
+INSERT_NO_PRESIGN: written=1530000 rows
+INSERT_NO_PRESIGN: written=1560000 rows
+INSERT_NO_PRESIGN: written=1590000 rows
+INSERT_NO_PRESIGN: written=1620000 rows
+INSERT_NO_PRESIGN: written=1650000 rows
+INSERT_NO_PRESIGN: written=1680000 rows
+INSERT_NO_PRESIGN: written=1710000 rows
+INSERT_NO_PRESIGN: written=1740000 rows
+INSERT_NO_PRESIGN: written=1770000 rows
+INSERT_NO_PRESIGN: written=1800000 rows
+INSERT_NO_PRESIGN: written=1830000 rows
+INSERT_NO_PRESIGN: written=1860000 rows
+INSERT_NO_PRESIGN: written=1890000 rows
+INSERT_NO_PRESIGN: written=1920000 rows
+INSERT_NO_PRESIGN: written=1950000 rows
+INSERT_NO_PRESIGN: written=1980000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=359.48s, rows/s=5564
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=386.42s, rows/s=5176
+3000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=3000
+STREAMING_LOAD: written=30000 rows
+STREAMING_LOAD: written=60000 rows
+STREAMING_LOAD: written=90000 rows
+STREAMING_LOAD: written=120000 rows
+STREAMING_LOAD: written=150000 rows
+STREAMING_LOAD: written=180000 rows
+STREAMING_LOAD: written=210000 rows
+STREAMING_LOAD: written=240000 rows
+STREAMING_LOAD: written=270000 rows
+STREAMING_LOAD: written=300000 rows
+STREAMING_LOAD: written=330000 rows
+STREAMING_LOAD: written=360000 rows
+STREAMING_LOAD: written=390000 rows
+STREAMING_LOAD: written=420000 rows
+STREAMING_LOAD: written=450000 rows
+STREAMING_LOAD: written=480000 rows
+STREAMING_LOAD: written=510000 rows
+STREAMING_LOAD: written=540000 rows
+STREAMING_LOAD: written=570000 rows
+STREAMING_LOAD: written=600000 rows
+STREAMING_LOAD: written=630000 rows
+STREAMING_LOAD: written=660000 rows
+STREAMING_LOAD: written=690000 rows
+STREAMING_LOAD: written=720000 rows
+STREAMING_LOAD: written=750000 rows
+STREAMING_LOAD: written=780000 rows
+STREAMING_LOAD: written=810000 rows
+STREAMING_LOAD: written=840000 rows
+STREAMING_LOAD: written=870000 rows
+STREAMING_LOAD: written=900000 rows
+STREAMING_LOAD: written=930000 rows
+STREAMING_LOAD: written=960000 rows
+STREAMING_LOAD: written=990000 rows
+STREAMING_LOAD: written=1020000 rows
+STREAMING_LOAD: written=1050000 rows
+STREAMING_LOAD: written=1080000 rows
+STREAMING_LOAD: written=1110000 rows
+STREAMING_LOAD: written=1140000 rows
+STREAMING_LOAD: written=1170000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1230000 rows
+STREAMING_LOAD: written=1260000 rows
+STREAMING_LOAD: written=1290000 rows
+STREAMING_LOAD: written=1320000 rows
+STREAMING_LOAD: written=1350000 rows
+STREAMING_LOAD: written=1380000 rows
+STREAMING_LOAD: written=1410000 rows
+STREAMING_LOAD: written=1440000 rows
+STREAMING_LOAD: written=1470000 rows
+STREAMING_LOAD: written=1500000 rows
+STREAMING_LOAD: written=1530000 rows
+STREAMING_LOAD: written=1560000 rows
+STREAMING_LOAD: written=1590000 rows
+STREAMING_LOAD: written=1620000 rows
+STREAMING_LOAD: written=1650000 rows
+STREAMING_LOAD: written=1680000 rows
+STREAMING_LOAD: written=1710000 rows
+STREAMING_LOAD: written=1740000 rows
+STREAMING_LOAD: written=1770000 rows
+STREAMING_LOAD: written=1800000 rows
+STREAMING_LOAD: written=1830000 rows
+STREAMING_LOAD: written=1860000 rows
+STREAMING_LOAD: written=1890000 rows
+STREAMING_LOAD: written=1920000 rows
+STREAMING_LOAD: written=1950000 rows
+STREAMING_LOAD: written=1980000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=200.59s, rows/s=9971
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=235.38s, rows/s=8497
+3000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=3000
+STAGE_LOAD_WRITE: batches=10, generated=30000 rows
+STAGE_LOAD_WRITE: batches=20, generated=60000 rows
+STAGE_LOAD_WRITE: batches=30, generated=90000 rows
+STAGE_LOAD_WRITE: batches=40, generated=120000 rows
+STAGE_LOAD_WRITE: batches=50, generated=150000 rows
+STAGE_LOAD_WRITE: batches=60, generated=180000 rows
+STAGE_LOAD_WRITE: batches=70, generated=210000 rows
+STAGE_LOAD_WRITE: batches=80, generated=240000 rows
+STAGE_LOAD_WRITE: batches=90, generated=270000 rows
+STAGE_LOAD_WRITE: batches=100, generated=300000 rows
+STAGE_LOAD_WRITE: batches=110, generated=330000 rows
+STAGE_LOAD_WRITE: batches=120, generated=360000 rows
+STAGE_LOAD_WRITE: batches=130, generated=390000 rows
+STAGE_LOAD_WRITE: batches=140, generated=420000 rows
+STAGE_LOAD_WRITE: batches=150, generated=450000 rows
+STAGE_LOAD_WRITE: batches=160, generated=480000 rows
+STAGE_LOAD_WRITE: batches=170, generated=510000 rows
+STAGE_LOAD_WRITE: batches=180, generated=540000 rows
+STAGE_LOAD_WRITE: batches=190, generated=570000 rows
+STAGE_LOAD_WRITE: batches=200, generated=600000 rows
+STAGE_LOAD_WRITE: batches=210, generated=630000 rows
+STAGE_LOAD_WRITE: batches=220, generated=660000 rows
+STAGE_LOAD_WRITE: batches=230, generated=690000 rows
+STAGE_LOAD_WRITE: batches=240, generated=720000 rows
+STAGE_LOAD_WRITE: batches=250, generated=750000 rows
+STAGE_LOAD_WRITE: batches=260, generated=780000 rows
+STAGE_LOAD_WRITE: batches=270, generated=810000 rows
+STAGE_LOAD_WRITE: batches=280, generated=840000 rows
+STAGE_LOAD_WRITE: batches=290, generated=870000 rows
+STAGE_LOAD_WRITE: batches=300, generated=900000 rows
+STAGE_LOAD_WRITE: batches=310, generated=930000 rows
+STAGE_LOAD_WRITE: batches=320, generated=960000 rows
+STAGE_LOAD_WRITE: batches=330, generated=990000 rows
+STAGE_LOAD_WRITE: batches=340, generated=1020000 rows
+STAGE_LOAD_WRITE: batches=350, generated=1050000 rows
+STAGE_LOAD_WRITE: batches=360, generated=1080000 rows
+STAGE_LOAD_WRITE: batches=370, generated=1110000 rows
+STAGE_LOAD_WRITE: batches=380, generated=1140000 rows
+STAGE_LOAD_WRITE: batches=390, generated=1170000 rows
+STAGE_LOAD_WRITE: batches=400, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=410, generated=1230000 rows
+STAGE_LOAD_WRITE: batches=420, generated=1260000 rows
+STAGE_LOAD_WRITE: batches=430, generated=1290000 rows
+STAGE_LOAD_WRITE: batches=440, generated=1320000 rows
+STAGE_LOAD_WRITE: batches=450, generated=1350000 rows
+STAGE_LOAD_WRITE: batches=460, generated=1380000 rows
+STAGE_LOAD_WRITE: batches=470, generated=1410000 rows
+STAGE_LOAD_WRITE: batches=480, generated=1440000 rows
+STAGE_LOAD_WRITE: batches=490, generated=1470000 rows
+STAGE_LOAD_WRITE: batches=500, generated=1500000 rows
+STAGE_LOAD_WRITE: batches=510, generated=1530000 rows
+STAGE_LOAD_WRITE: batches=520, generated=1560000 rows
+STAGE_LOAD_WRITE: batches=530, generated=1590000 rows
+STAGE_LOAD_WRITE: batches=540, generated=1620000 rows
+STAGE_LOAD_WRITE: batches=550, generated=1650000 rows
+STAGE_LOAD_WRITE: batches=560, generated=1680000 rows
+STAGE_LOAD_WRITE: batches=570, generated=1710000 rows
+STAGE_LOAD_WRITE: batches=580, generated=1740000 rows
+STAGE_LOAD_WRITE: batches=590, generated=1770000 rows
+STAGE_LOAD_WRITE: batches=600, generated=1800000 rows
+STAGE_LOAD_WRITE: batches=610, generated=1830000 rows
+STAGE_LOAD_WRITE: batches=620, generated=1860000 rows
+STAGE_LOAD_WRITE: batches=630, generated=1890000 rows
+STAGE_LOAD_WRITE: batches=640, generated=1920000 rows
+STAGE_LOAD_WRITE: batches=650, generated=1950000 rows
+STAGE_LOAD_WRITE: batches=660, generated=1980000 rows
+STAGE_LOAD: totalRows=2000000, batches=667, writeCost=21.84s, copyCost=4.22s, totalCost=26.06s, copyRows/s=473672
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=61.30s, rows/s=32627
+4000 insert
+Mode=INSERT, totalRows=2000000, batchSize=4000
+INSERT: written=40000 rows
+INSERT: written=80000 rows
+INSERT: written=120000 rows
+INSERT: written=160000 rows
+INSERT: written=200000 rows
+INSERT: written=240000 rows
+INSERT: written=280000 rows
+INSERT: written=320000 rows
+INSERT: written=360000 rows
+INSERT: written=400000 rows
+INSERT: written=440000 rows
+INSERT: written=480000 rows
+INSERT: written=520000 rows
+INSERT: written=560000 rows
+INSERT: written=600000 rows
+INSERT: written=640000 rows
+INSERT: written=680000 rows
+INSERT: written=720000 rows
+INSERT: written=760000 rows
+INSERT: written=800000 rows
+INSERT: written=840000 rows
+INSERT: written=880000 rows
+INSERT: written=920000 rows
+INSERT: written=960000 rows
+INSERT: written=1000000 rows
+INSERT: written=1040000 rows
+INSERT: written=1080000 rows
+INSERT: written=1120000 rows
+INSERT: written=1160000 rows
+INSERT: written=1200000 rows
+INSERT: written=1240000 rows
+INSERT: written=1280000 rows
+INSERT: written=1320000 rows
+INSERT: written=1360000 rows
+INSERT: written=1400000 rows
+INSERT: written=1440000 rows
+INSERT: written=1480000 rows
+INSERT: written=1520000 rows
+INSERT: written=1560000 rows
+INSERT: written=1600000 rows
+INSERT: written=1640000 rows
+INSERT: written=1680000 rows
+INSERT: written=1720000 rows
+INSERT: written=1760000 rows
+INSERT: written=1800000 rows
+INSERT: written=1840000 rows
+INSERT: written=1880000 rows
+INSERT: written=1920000 rows
+INSERT: written=1960000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=296.82s, rows/s=6738
+Finished mode=INSERT, totalRows=2000000, cost=323.21s, rows/s=6188
+4000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=4000
+INSERT_NO_PRESIGN: written=40000 rows
+INSERT_NO_PRESIGN: written=80000 rows
+INSERT_NO_PRESIGN: written=120000 rows
+INSERT_NO_PRESIGN: written=160000 rows
+INSERT_NO_PRESIGN: written=200000 rows
+INSERT_NO_PRESIGN: written=240000 rows
+INSERT_NO_PRESIGN: written=280000 rows
+INSERT_NO_PRESIGN: written=320000 rows
+INSERT_NO_PRESIGN: written=360000 rows
+INSERT_NO_PRESIGN: written=400000 rows
+INSERT_NO_PRESIGN: written=440000 rows
+INSERT_NO_PRESIGN: written=480000 rows
+INSERT_NO_PRESIGN: written=520000 rows
+INSERT_NO_PRESIGN: written=560000 rows
+INSERT_NO_PRESIGN: written=600000 rows
+INSERT_NO_PRESIGN: written=640000 rows
+INSERT_NO_PRESIGN: written=680000 rows
+INSERT_NO_PRESIGN: written=720000 rows
+INSERT_NO_PRESIGN: written=760000 rows
+INSERT_NO_PRESIGN: written=800000 rows
+INSERT_NO_PRESIGN: written=840000 rows
+INSERT_NO_PRESIGN: written=880000 rows
+INSERT_NO_PRESIGN: written=920000 rows
+INSERT_NO_PRESIGN: written=960000 rows
+INSERT_NO_PRESIGN: written=1000000 rows
+INSERT_NO_PRESIGN: written=1040000 rows
+INSERT_NO_PRESIGN: written=1080000 rows
+INSERT_NO_PRESIGN: written=1120000 rows
+INSERT_NO_PRESIGN: written=1160000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1240000 rows
+INSERT_NO_PRESIGN: written=1280000 rows
+INSERT_NO_PRESIGN: written=1320000 rows
+INSERT_NO_PRESIGN: written=1360000 rows
+INSERT_NO_PRESIGN: written=1400000 rows
+INSERT_NO_PRESIGN: written=1440000 rows
+INSERT_NO_PRESIGN: written=1480000 rows
+INSERT_NO_PRESIGN: written=1520000 rows
+INSERT_NO_PRESIGN: written=1560000 rows
+INSERT_NO_PRESIGN: written=1600000 rows
+INSERT_NO_PRESIGN: written=1640000 rows
+INSERT_NO_PRESIGN: written=1680000 rows
+INSERT_NO_PRESIGN: written=1720000 rows
+INSERT_NO_PRESIGN: written=1760000 rows
+INSERT_NO_PRESIGN: written=1800000 rows
+INSERT_NO_PRESIGN: written=1840000 rows
+INSERT_NO_PRESIGN: written=1880000 rows
+INSERT_NO_PRESIGN: written=1920000 rows
+INSERT_NO_PRESIGN: written=1960000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=285.10s, rows/s=7015
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=312.70s, rows/s=6396
+4000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=4000
+STREAMING_LOAD: written=40000 rows
+STREAMING_LOAD: written=80000 rows
+STREAMING_LOAD: written=120000 rows
+STREAMING_LOAD: written=160000 rows
+STREAMING_LOAD: written=200000 rows
+STREAMING_LOAD: written=240000 rows
+STREAMING_LOAD: written=280000 rows
+STREAMING_LOAD: written=320000 rows
+STREAMING_LOAD: written=360000 rows
+STREAMING_LOAD: written=400000 rows
+STREAMING_LOAD: written=440000 rows
+STREAMING_LOAD: written=480000 rows
+STREAMING_LOAD: written=520000 rows
+STREAMING_LOAD: written=560000 rows
+STREAMING_LOAD: written=600000 rows
+STREAMING_LOAD: written=640000 rows
+STREAMING_LOAD: written=680000 rows
+STREAMING_LOAD: written=720000 rows
+STREAMING_LOAD: written=760000 rows
+STREAMING_LOAD: written=800000 rows
+STREAMING_LOAD: written=840000 rows
+STREAMING_LOAD: written=880000 rows
+STREAMING_LOAD: written=920000 rows
+STREAMING_LOAD: written=960000 rows
+STREAMING_LOAD: written=1000000 rows
+STREAMING_LOAD: written=1040000 rows
+STREAMING_LOAD: written=1080000 rows
+STREAMING_LOAD: written=1120000 rows
+STREAMING_LOAD: written=1160000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1240000 rows
+STREAMING_LOAD: written=1280000 rows
+STREAMING_LOAD: written=1320000 rows
+STREAMING_LOAD: written=1360000 rows
+STREAMING_LOAD: written=1400000 rows
+STREAMING_LOAD: written=1440000 rows
+STREAMING_LOAD: written=1480000 rows
+STREAMING_LOAD: written=1520000 rows
+STREAMING_LOAD: written=1560000 rows
+STREAMING_LOAD: written=1600000 rows
+STREAMING_LOAD: written=1640000 rows
+STREAMING_LOAD: written=1680000 rows
+STREAMING_LOAD: written=1720000 rows
+STREAMING_LOAD: written=1760000 rows
+STREAMING_LOAD: written=1800000 rows
+STREAMING_LOAD: written=1840000 rows
+STREAMING_LOAD: written=1880000 rows
+STREAMING_LOAD: written=1920000 rows
+STREAMING_LOAD: written=1960000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=156.58s, rows/s=12773
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=191.92s, rows/s=10421
+4000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=4000
+STAGE_LOAD_WRITE: batches=10, generated=40000 rows
+STAGE_LOAD_WRITE: batches=20, generated=80000 rows
+STAGE_LOAD_WRITE: batches=30, generated=120000 rows
+STAGE_LOAD_WRITE: batches=40, generated=160000 rows
+STAGE_LOAD_WRITE: batches=50, generated=200000 rows
+STAGE_LOAD_WRITE: batches=60, generated=240000 rows
+STAGE_LOAD_WRITE: batches=70, generated=280000 rows
+STAGE_LOAD_WRITE: batches=80, generated=320000 rows
+STAGE_LOAD_WRITE: batches=90, generated=360000 rows
+STAGE_LOAD_WRITE: batches=100, generated=400000 rows
+STAGE_LOAD_WRITE: batches=110, generated=440000 rows
+STAGE_LOAD_WRITE: batches=120, generated=480000 rows
+STAGE_LOAD_WRITE: batches=130, generated=520000 rows
+STAGE_LOAD_WRITE: batches=140, generated=560000 rows
+STAGE_LOAD_WRITE: batches=150, generated=600000 rows
+STAGE_LOAD_WRITE: batches=160, generated=640000 rows
+STAGE_LOAD_WRITE: batches=170, generated=680000 rows
+STAGE_LOAD_WRITE: batches=180, generated=720000 rows
+STAGE_LOAD_WRITE: batches=190, generated=760000 rows
+STAGE_LOAD_WRITE: batches=200, generated=800000 rows
+STAGE_LOAD_WRITE: batches=210, generated=840000 rows
+STAGE_LOAD_WRITE: batches=220, generated=880000 rows
+STAGE_LOAD_WRITE: batches=230, generated=920000 rows
+STAGE_LOAD_WRITE: batches=240, generated=960000 rows
+STAGE_LOAD_WRITE: batches=250, generated=1000000 rows
+STAGE_LOAD_WRITE: batches=260, generated=1040000 rows
+STAGE_LOAD_WRITE: batches=270, generated=1080000 rows
+STAGE_LOAD_WRITE: batches=280, generated=1120000 rows
+STAGE_LOAD_WRITE: batches=290, generated=1160000 rows
+STAGE_LOAD_WRITE: batches=300, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=310, generated=1240000 rows
+STAGE_LOAD_WRITE: batches=320, generated=1280000 rows
+STAGE_LOAD_WRITE: batches=330, generated=1320000 rows
+STAGE_LOAD_WRITE: batches=340, generated=1360000 rows
+STAGE_LOAD_WRITE: batches=350, generated=1400000 rows
+STAGE_LOAD_WRITE: batches=360, generated=1440000 rows
+STAGE_LOAD_WRITE: batches=370, generated=1480000 rows
+STAGE_LOAD_WRITE: batches=380, generated=1520000 rows
+STAGE_LOAD_WRITE: batches=390, generated=1560000 rows
+STAGE_LOAD_WRITE: batches=400, generated=1600000 rows
+STAGE_LOAD_WRITE: batches=410, generated=1640000 rows
+STAGE_LOAD_WRITE: batches=420, generated=1680000 rows
+STAGE_LOAD_WRITE: batches=430, generated=1720000 rows
+STAGE_LOAD_WRITE: batches=440, generated=1760000 rows
+STAGE_LOAD_WRITE: batches=450, generated=1800000 rows
+STAGE_LOAD_WRITE: batches=460, generated=1840000 rows
+STAGE_LOAD_WRITE: batches=470, generated=1880000 rows
+STAGE_LOAD_WRITE: batches=480, generated=1920000 rows
+STAGE_LOAD_WRITE: batches=490, generated=1960000 rows
+STAGE_LOAD_WRITE: batches=500, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=500, writeCost=20.06s, copyCost=4.26s, totalCost=24.32s, copyRows/s=469622
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=59.64s, rows/s=33537
+5000 insert
+Mode=INSERT, totalRows=2000000, batchSize=5000
+INSERT: written=50000 rows
+INSERT: written=100000 rows
+INSERT: written=150000 rows
+INSERT: written=200000 rows
+INSERT: written=250000 rows
+INSERT: written=300000 rows
+INSERT: written=350000 rows
+INSERT: written=400000 rows
+INSERT: written=450000 rows
+INSERT: written=500000 rows
+INSERT: written=550000 rows
+INSERT: written=600000 rows
+INSERT: written=650000 rows
+INSERT: written=700000 rows
+INSERT: written=750000 rows
+INSERT: written=800000 rows
+INSERT: written=850000 rows
+INSERT: written=900000 rows
+INSERT: written=950000 rows
+INSERT: written=1000000 rows
+INSERT: written=1050000 rows
+INSERT: written=1100000 rows
+INSERT: written=1150000 rows
+INSERT: written=1200000 rows
+INSERT: written=1250000 rows
+INSERT: written=1300000 rows
+INSERT: written=1350000 rows
+INSERT: written=1400000 rows
+INSERT: written=1450000 rows
+INSERT: written=1500000 rows
+INSERT: written=1550000 rows
+INSERT: written=1600000 rows
+INSERT: written=1650000 rows
+INSERT: written=1700000 rows
+INSERT: written=1750000 rows
+INSERT: written=1800000 rows
+INSERT: written=1850000 rows
+INSERT: written=1900000 rows
+INSERT: written=1950000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=251.10s, rows/s=7965
+Finished mode=INSERT, totalRows=2000000, cost=278.72s, rows/s=7176
+5000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=5000
+INSERT_NO_PRESIGN: written=50000 rows
+INSERT_NO_PRESIGN: written=100000 rows
+INSERT_NO_PRESIGN: written=150000 rows
+INSERT_NO_PRESIGN: written=200000 rows
+INSERT_NO_PRESIGN: written=250000 rows
+INSERT_NO_PRESIGN: written=300000 rows
+INSERT_NO_PRESIGN: written=350000 rows
+INSERT_NO_PRESIGN: written=400000 rows
+INSERT_NO_PRESIGN: written=450000 rows
+INSERT_NO_PRESIGN: written=500000 rows
+INSERT_NO_PRESIGN: written=550000 rows
+INSERT_NO_PRESIGN: written=600000 rows
+INSERT_NO_PRESIGN: written=650000 rows
+INSERT_NO_PRESIGN: written=700000 rows
+INSERT_NO_PRESIGN: written=750000 rows
+INSERT_NO_PRESIGN: written=800000 rows
+INSERT_NO_PRESIGN: written=850000 rows
+INSERT_NO_PRESIGN: written=900000 rows
+INSERT_NO_PRESIGN: written=950000 rows
+INSERT_NO_PRESIGN: written=1000000 rows
+INSERT_NO_PRESIGN: written=1050000 rows
+INSERT_NO_PRESIGN: written=1100000 rows
+INSERT_NO_PRESIGN: written=1150000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1250000 rows
+INSERT_NO_PRESIGN: written=1300000 rows
+INSERT_NO_PRESIGN: written=1350000 rows
+INSERT_NO_PRESIGN: written=1400000 rows
+INSERT_NO_PRESIGN: written=1450000 rows
+INSERT_NO_PRESIGN: written=1500000 rows
+INSERT_NO_PRESIGN: written=1550000 rows
+INSERT_NO_PRESIGN: written=1600000 rows
+INSERT_NO_PRESIGN: written=1650000 rows
+INSERT_NO_PRESIGN: written=1700000 rows
+INSERT_NO_PRESIGN: written=1750000 rows
+INSERT_NO_PRESIGN: written=1800000 rows
+INSERT_NO_PRESIGN: written=1850000 rows
+INSERT_NO_PRESIGN: written=1900000 rows
+INSERT_NO_PRESIGN: written=1950000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=240.08s, rows/s=8330
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=268.05s, rows/s=7461
+5000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=5000
+STREAMING_LOAD: written=50000 rows
+STREAMING_LOAD: written=100000 rows
+STREAMING_LOAD: written=150000 rows
+STREAMING_LOAD: written=200000 rows
+STREAMING_LOAD: written=250000 rows
+STREAMING_LOAD: written=300000 rows
+STREAMING_LOAD: written=350000 rows
+STREAMING_LOAD: written=400000 rows
+STREAMING_LOAD: written=450000 rows
+STREAMING_LOAD: written=500000 rows
+STREAMING_LOAD: written=550000 rows
+STREAMING_LOAD: written=600000 rows
+STREAMING_LOAD: written=650000 rows
+STREAMING_LOAD: written=700000 rows
+STREAMING_LOAD: written=750000 rows
+STREAMING_LOAD: written=800000 rows
+STREAMING_LOAD: written=850000 rows
+STREAMING_LOAD: written=900000 rows
+STREAMING_LOAD: written=950000 rows
+STREAMING_LOAD: written=1000000 rows
+STREAMING_LOAD: written=1050000 rows
+STREAMING_LOAD: written=1100000 rows
+STREAMING_LOAD: written=1150000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1250000 rows
+STREAMING_LOAD: written=1300000 rows
+STREAMING_LOAD: written=1350000 rows
+STREAMING_LOAD: written=1400000 rows
+STREAMING_LOAD: written=1450000 rows
+STREAMING_LOAD: written=1500000 rows
+STREAMING_LOAD: written=1550000 rows
+STREAMING_LOAD: written=1600000 rows
+STREAMING_LOAD: written=1650000 rows
+STREAMING_LOAD: written=1700000 rows
+STREAMING_LOAD: written=1750000 rows
+STREAMING_LOAD: written=1800000 rows
+STREAMING_LOAD: written=1850000 rows
+STREAMING_LOAD: written=1900000 rows
+STREAMING_LOAD: written=1950000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=130.86s, rows/s=15283
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=165.56s, rows/s=12080
+5000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=5000
+STAGE_LOAD_WRITE: batches=10, generated=50000 rows
+STAGE_LOAD_WRITE: batches=20, generated=100000 rows
+STAGE_LOAD_WRITE: batches=30, generated=150000 rows
+STAGE_LOAD_WRITE: batches=40, generated=200000 rows
+STAGE_LOAD_WRITE: batches=50, generated=250000 rows
+STAGE_LOAD_WRITE: batches=60, generated=300000 rows
+STAGE_LOAD_WRITE: batches=70, generated=350000 rows
+STAGE_LOAD_WRITE: batches=80, generated=400000 rows
+STAGE_LOAD_WRITE: batches=90, generated=450000 rows
+STAGE_LOAD_WRITE: batches=100, generated=500000 rows
+STAGE_LOAD_WRITE: batches=110, generated=550000 rows
+STAGE_LOAD_WRITE: batches=120, generated=600000 rows
+STAGE_LOAD_WRITE: batches=130, generated=650000 rows
+STAGE_LOAD_WRITE: batches=140, generated=700000 rows
+STAGE_LOAD_WRITE: batches=150, generated=750000 rows
+STAGE_LOAD_WRITE: batches=160, generated=800000 rows
+STAGE_LOAD_WRITE: batches=170, generated=850000 rows
+STAGE_LOAD_WRITE: batches=180, generated=900000 rows
+STAGE_LOAD_WRITE: batches=190, generated=950000 rows
+STAGE_LOAD_WRITE: batches=200, generated=1000000 rows
+STAGE_LOAD_WRITE: batches=210, generated=1050000 rows
+STAGE_LOAD_WRITE: batches=220, generated=1100000 rows
+STAGE_LOAD_WRITE: batches=230, generated=1150000 rows
+STAGE_LOAD_WRITE: batches=240, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=250, generated=1250000 rows
+STAGE_LOAD_WRITE: batches=260, generated=1300000 rows
+STAGE_LOAD_WRITE: batches=270, generated=1350000 rows
+STAGE_LOAD_WRITE: batches=280, generated=1400000 rows
+STAGE_LOAD_WRITE: batches=290, generated=1450000 rows
+STAGE_LOAD_WRITE: batches=300, generated=1500000 rows
+STAGE_LOAD_WRITE: batches=310, generated=1550000 rows
+STAGE_LOAD_WRITE: batches=320, generated=1600000 rows
+STAGE_LOAD_WRITE: batches=330, generated=1650000 rows
+STAGE_LOAD_WRITE: batches=340, generated=1700000 rows
+STAGE_LOAD_WRITE: batches=350, generated=1750000 rows
+STAGE_LOAD_WRITE: batches=360, generated=1800000 rows
+STAGE_LOAD_WRITE: batches=370, generated=1850000 rows
+STAGE_LOAD_WRITE: batches=380, generated=1900000 rows
+STAGE_LOAD_WRITE: batches=390, generated=1950000 rows
+STAGE_LOAD_WRITE: batches=400, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=400, writeCost=18.63s, copyCost=4.54s, totalCost=23.17s, copyRows/s=440739
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=59.00s, rows/s=33900
+10000 insert
+Mode=INSERT, totalRows=2000000, batchSize=10000
+INSERT: written=100000 rows
+INSERT: written=200000 rows
+INSERT: written=300000 rows
+INSERT: written=400000 rows
+INSERT: written=500000 rows
+INSERT: written=600000 rows
+INSERT: written=700000 rows
+INSERT: written=800000 rows
+INSERT: written=900000 rows
+INSERT: written=1000000 rows
+INSERT: written=1100000 rows
+INSERT: written=1200000 rows
+INSERT: written=1300000 rows
+INSERT: written=1400000 rows
+INSERT: written=1500000 rows
+INSERT: written=1600000 rows
+INSERT: written=1700000 rows
+INSERT: written=1800000 rows
+INSERT: written=1900000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=145.75s, rows/s=13722
+Finished mode=INSERT, totalRows=2000000, cost=172.76s, rows/s=11577
+10000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=10000
+INSERT_NO_PRESIGN: written=100000 rows
+INSERT_NO_PRESIGN: written=200000 rows
+INSERT_NO_PRESIGN: written=300000 rows
+INSERT_NO_PRESIGN: written=400000 rows
+INSERT_NO_PRESIGN: written=500000 rows
+INSERT_NO_PRESIGN: written=600000 rows
+INSERT_NO_PRESIGN: written=700000 rows
+INSERT_NO_PRESIGN: written=800000 rows
+INSERT_NO_PRESIGN: written=900000 rows
+INSERT_NO_PRESIGN: written=1000000 rows
+INSERT_NO_PRESIGN: written=1100000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1300000 rows
+INSERT_NO_PRESIGN: written=1400000 rows
+INSERT_NO_PRESIGN: written=1500000 rows
+INSERT_NO_PRESIGN: written=1600000 rows
+INSERT_NO_PRESIGN: written=1700000 rows
+INSERT_NO_PRESIGN: written=1800000 rows
+INSERT_NO_PRESIGN: written=1900000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=140.76s, rows/s=14209
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=168.99s, rows/s=11835
+10000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=10000
+STREAMING_LOAD: written=100000 rows
+STREAMING_LOAD: written=200000 rows
+STREAMING_LOAD: written=300000 rows
+STREAMING_LOAD: written=400000 rows
+STREAMING_LOAD: written=500000 rows
+STREAMING_LOAD: written=600000 rows
+STREAMING_LOAD: written=700000 rows
+STREAMING_LOAD: written=800000 rows
+STREAMING_LOAD: written=900000 rows
+STREAMING_LOAD: written=1000000 rows
+STREAMING_LOAD: written=1100000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1300000 rows
+STREAMING_LOAD: written=1400000 rows
+STREAMING_LOAD: written=1500000 rows
+STREAMING_LOAD: written=1600000 rows
+STREAMING_LOAD: written=1700000 rows
+STREAMING_LOAD: written=1800000 rows
+STREAMING_LOAD: written=1900000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=78.80s, rows/s=25380
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=114.59s, rows/s=17453
+10000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=10000
+STAGE_LOAD_WRITE: batches=10, generated=100000 rows
+STAGE_LOAD_WRITE: batches=20, generated=200000 rows
+STAGE_LOAD_WRITE: batches=30, generated=300000 rows
+STAGE_LOAD_WRITE: batches=40, generated=400000 rows
+STAGE_LOAD_WRITE: batches=50, generated=500000 rows
+STAGE_LOAD_WRITE: batches=60, generated=600000 rows
+STAGE_LOAD_WRITE: batches=70, generated=700000 rows
+STAGE_LOAD_WRITE: batches=80, generated=800000 rows
+STAGE_LOAD_WRITE: batches=90, generated=900000 rows
+STAGE_LOAD_WRITE: batches=100, generated=1000000 rows
+STAGE_LOAD_WRITE: batches=110, generated=1100000 rows
+STAGE_LOAD_WRITE: batches=120, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=130, generated=1300000 rows
+STAGE_LOAD_WRITE: batches=140, generated=1400000 rows
+STAGE_LOAD_WRITE: batches=150, generated=1500000 rows
+STAGE_LOAD_WRITE: batches=160, generated=1600000 rows
+STAGE_LOAD_WRITE: batches=170, generated=1700000 rows
+STAGE_LOAD_WRITE: batches=180, generated=1800000 rows
+STAGE_LOAD_WRITE: batches=190, generated=1900000 rows
+STAGE_LOAD_WRITE: batches=200, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=200, writeCost=13.39s, copyCost=3.03s, totalCost=16.42s, copyRows/s=660138
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=51.64s, rows/s=38730
+20000 insert
+Mode=INSERT, totalRows=2000000, batchSize=20000
+INSERT: written=200000 rows
+INSERT: written=400000 rows
+INSERT: written=600000 rows
+INSERT: written=800000 rows
+INSERT: written=1000000 rows
+INSERT: written=1200000 rows
+INSERT: written=1400000 rows
+INSERT: written=1600000 rows
+INSERT: written=1800000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=89.49s, rows/s=22350
+Finished mode=INSERT, totalRows=2000000, cost=118.16s, rows/s=16926
+20000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=20000
+INSERT_NO_PRESIGN: written=200000 rows
+INSERT_NO_PRESIGN: written=400000 rows
+INSERT_NO_PRESIGN: written=600000 rows
+INSERT_NO_PRESIGN: written=800000 rows
+INSERT_NO_PRESIGN: written=1000000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1400000 rows
+INSERT_NO_PRESIGN: written=1600000 rows
+INSERT_NO_PRESIGN: written=1800000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=89.73s, rows/s=22290
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=117.73s, rows/s=16988
+20000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=20000
+STREAMING_LOAD: written=200000 rows
+STREAMING_LOAD: written=400000 rows
+STREAMING_LOAD: written=600000 rows
+STREAMING_LOAD: written=800000 rows
+STREAMING_LOAD: written=1000000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1400000 rows
+STREAMING_LOAD: written=1600000 rows
+STREAMING_LOAD: written=1800000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=48.70s, rows/s=41066
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=84.07s, rows/s=23789
+20000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=20000
+STAGE_LOAD_WRITE: batches=10, generated=200000 rows
+STAGE_LOAD_WRITE: batches=20, generated=400000 rows
+STAGE_LOAD_WRITE: batches=30, generated=600000 rows
+STAGE_LOAD_WRITE: batches=40, generated=800000 rows
+STAGE_LOAD_WRITE: batches=50, generated=1000000 rows
+STAGE_LOAD_WRITE: batches=60, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=70, generated=1400000 rows
+STAGE_LOAD_WRITE: batches=80, generated=1600000 rows
+STAGE_LOAD_WRITE: batches=90, generated=1800000 rows
+STAGE_LOAD_WRITE: batches=100, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=100, writeCost=9.05s, copyCost=2.50s, totalCost=11.54s, copyRows/s=800858
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=46.85s, rows/s=42686
+30000 insert
+Mode=INSERT, totalRows=2000000, batchSize=30000
+INSERT: written=300000 rows
+INSERT: written=600000 rows
+INSERT: written=900000 rows
+INSERT: written=1200000 rows
+INSERT: written=1500000 rows
+INSERT: written=1800000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=72.79s, rows/s=27477
+Finished mode=INSERT, totalRows=2000000, cost=99.56s, rows/s=20088
+30000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=30000
+INSERT_NO_PRESIGN: written=300000 rows
+INSERT_NO_PRESIGN: written=600000 rows
+INSERT_NO_PRESIGN: written=900000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1500000 rows
+INSERT_NO_PRESIGN: written=1800000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=79.95s, rows/s=25015
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=107.31s, rows/s=18638
+30000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=30000
+STREAMING_LOAD: written=300000 rows
+STREAMING_LOAD: written=600000 rows
+STREAMING_LOAD: written=900000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1500000 rows
+STREAMING_LOAD: written=1800000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=38.69s, rows/s=51693
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=74.39s, rows/s=26885
+30000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=30000
+STAGE_LOAD_WRITE: batches=10, generated=300000 rows
+STAGE_LOAD_WRITE: batches=20, generated=600000 rows
+STAGE_LOAD_WRITE: batches=30, generated=900000 rows
+STAGE_LOAD_WRITE: batches=40, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=50, generated=1500000 rows
+STAGE_LOAD_WRITE: batches=60, generated=1800000 rows
+STAGE_LOAD: totalRows=2000000, batches=67, writeCost=7.21s, copyCost=3.41s, totalCost=10.62s, copyRows/s=586571
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=46.03s, rows/s=43454
+40000 insert
+Mode=INSERT, totalRows=2000000, batchSize=40000
+INSERT: written=400000 rows
+INSERT: written=800000 rows
+INSERT: written=1200000 rows
+INSERT: written=1600000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=64.59s, rows/s=30966
+Finished mode=INSERT, totalRows=2000000, cost=92.59s, rows/s=21601
+40000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=40000
+INSERT_NO_PRESIGN: written=400000 rows
+INSERT_NO_PRESIGN: written=800000 rows
+INSERT_NO_PRESIGN: written=1200000 rows
+INSERT_NO_PRESIGN: written=1600000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=69.31s, rows/s=28858
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=98.59s, rows/s=20287
+40000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=40000
+STREAMING_LOAD: written=400000 rows
+STREAMING_LOAD: written=800000 rows
+STREAMING_LOAD: written=1200000 rows
+STREAMING_LOAD: written=1600000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=31.57s, rows/s=63355
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=66.83s, rows/s=29927
+40000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=40000
+STAGE_LOAD_WRITE: batches=10, generated=400000 rows
+STAGE_LOAD_WRITE: batches=20, generated=800000 rows
+STAGE_LOAD_WRITE: batches=30, generated=1200000 rows
+STAGE_LOAD_WRITE: batches=40, generated=1600000 rows
+STAGE_LOAD_WRITE: batches=50, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=50, writeCost=6.66s, copyCost=2.68s, totalCost=9.34s, copyRows/s=746503
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=45.03s, rows/s=44412
+50000 insert
+Mode=INSERT, totalRows=2000000, batchSize=50000
+INSERT: written=500000 rows
+INSERT: written=1000000 rows
+INSERT: written=1500000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=56.45s, rows/s=35429
+Finished mode=INSERT, totalRows=2000000, cost=84.72s, rows/s=23607
+50000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=50000
+INSERT_NO_PRESIGN: written=500000 rows
+INSERT_NO_PRESIGN: written=1000000 rows
+INSERT_NO_PRESIGN: written=1500000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=63.84s, rows/s=31329
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=93.39s, rows/s=21416
+50000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=50000
+STREAMING_LOAD: written=500000 rows
+STREAMING_LOAD: written=1000000 rows
+STREAMING_LOAD: written=1500000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=30.20s, rows/s=66232
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=65.65s, rows/s=30464
+50000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=50000
+STAGE_LOAD_WRITE: batches=10, generated=500000 rows
+STAGE_LOAD_WRITE: batches=20, generated=1000000 rows
+STAGE_LOAD_WRITE: batches=30, generated=1500000 rows
+STAGE_LOAD_WRITE: batches=40, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=40, writeCost=5.66s, copyCost=2.88s, totalCost=8.54s, copyRows/s=694830
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=43.93s, rows/s=45524
+100000 insert
+Mode=INSERT, totalRows=2000000, batchSize=100000
+INSERT: written=1000000 rows
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=47.01s, rows/s=42547
+Finished mode=INSERT, totalRows=2000000, cost=76.25s, rows/s=26228
+100000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=100000
+INSERT_NO_PRESIGN: written=1000000 rows
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=53.82s, rows/s=37159
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=83.89s, rows/s=23840
+100000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=100000
+STREAMING_LOAD: written=1000000 rows
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=22.64s, rows/s=88356
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=59.41s, rows/s=33666
+100000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=100000
+STAGE_LOAD_WRITE: batches=10, generated=1000000 rows
+STAGE_LOAD_WRITE: batches=20, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=20, writeCost=5.09s, copyCost=2.55s, totalCost=7.64s, copyRows/s=782997
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=44.49s, rows/s=44954
+200000 insert
+Mode=INSERT, totalRows=2000000, batchSize=200000
+INSERT: written=2000000 rows
+INSERT_DB_ONLY: totalRows=2000000, dbCost=34.65s, rows/s=57713
+Finished mode=INSERT, totalRows=2000000, cost=68.30s, rows/s=29283
+200000 insert_no_presign
+Mode=INSERT_NO_PRESIGN, totalRows=2000000, batchSize=200000
+INSERT_NO_PRESIGN: written=2000000 rows
+INSERT_NO_PRESIGN_DB_ONLY: totalRows=2000000, dbCost=42.70s, rows/s=46836
+Finished mode=INSERT_NO_PRESIGN, totalRows=2000000, cost=76.57s, rows/s=26121
+200000 streaming_load
+Mode=STREAMING_LOAD, totalRows=2000000, batchSize=200000
+STREAMING_LOAD: written=2000000 rows
+STREAMING_LOAD_DB_ONLY: totalRows=2000000, dbCost=15.67s, rows/s=127643
+Finished mode=STREAMING_LOAD, totalRows=2000000, cost=53.59s, rows/s=37320
+200000 stage_load
+Mode=STAGE_LOAD, totalRows=2000000, batchSize=200000
+STAGE_LOAD_WRITE: batches=10, generated=2000000 rows
+STAGE_LOAD: totalRows=2000000, batches=10, writeCost=4.48s, copyCost=3.20s, totalCost=7.68s, copyRows/s=625154
+Finished mode=STAGE_LOAD, totalRows=2000000, cost=46.50s, rows/s=43009
