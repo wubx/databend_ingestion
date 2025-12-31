@@ -19,7 +19,7 @@
 
 本次利用 Java 调用 databend-jdbc 实现数据写入，在程序中构造出表结构及对应的 mock 数据，分别使用上述四种形态。测试环境借助某集团的国产信创环境进行压测。
 
-压测程序借助 AI 自动生成，这里不再赘述，可直接参考脚本： 
+压测程序借助 AI 自动生成，这里不再赘述，可直接参考脚本： https://github.com/wubx/databend_ingestion/tree/main/db_ingestion
 
 ### 表结构
 ```
