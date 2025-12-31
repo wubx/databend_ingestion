@@ -64,15 +64,15 @@ done
 
 ## 结果分析
 
-![insert_streaimg_load 分析](./insert_streaming_dbRows.png)
+![insert_streaimg_load 分析](https://raw.githubusercontent.com/wubx/databend_ingestion/refs/heads/main/databend_ingestion_pk/insert_streaming_dbRows.png)
 
 - STREAMING_LOAD 的 DB 吞吐随着 batch 增大快速提升，从 2k 批的 6,958 rows/s 提升至 200k 批的 127,643 rows/s，明显优于同批次的 INSERT（29,283 rows/s）和 INSERT_NO_PRESIGN（26,121 rows/s）。
 - INSERT 与 INSERT_NO_PRESIGN 在小批次差距尚可（batch=2k 时 3,670 vs 3,929 rows/s），但 ≥20k 后几乎重合，且总体被 streaming 方案压制。
 
-![](./stage_load_copyRows.png)
+![](https://raw.githubusercontent.com/wubx/databend_ingestion/refs/heads/main/databend_ingestion_pk/stage_load_copyRows.png)
 - STAGE_LOAD 的 COPY throughput 处于另一个量级：batch=20k 时即达到 800k rows/s，50k 批稳定在 694k rows/s。整个阶段的总耗时受 stage 写入 + copy 启动占比影响更大，但单次 COPY 的吞吐无可比拟。
 
-![](./combined_ingest_throughput.png)
+![](https://raw.githubusercontent.com/wubx/databend_ingestion/refs/heads/main/databend_ingestion_pk/combined_ingest_throughput.png)
 
 把几种方式放到一块对比，可以看出来 stage_load 方式是遥遥领先于其它方式。
 
