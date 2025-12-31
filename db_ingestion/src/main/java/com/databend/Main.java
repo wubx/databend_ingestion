@@ -219,7 +219,7 @@ public class Main {
                 List<Map<String, Object>> rows = GenerateData.genBatch("batch_" + batchNo, currentBatchSize);
                 byte[] payload = buildCsvPayload(rows);
                 try (InputStream in = new ByteArrayInputStream(payload)) {
-                    // use special stage `_databend_load`, LoadMethod.STAGE
+                    // use special stage `_databend_load`, LoadMethod.STREMING
                     String sql = "INSERT INTO " + TABLE + " FROM @_databend_load FILE_FORMAT=(type=CSV)";
                     long batchStart = System.nanoTime();
                     int loaded = databendConnection.loadStreamToTable(
