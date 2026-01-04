@@ -28,14 +28,186 @@ Databend 提供了 4 种数据写入方式，适用于不同的部署场景：
 
 > 💡 **提示：** 这四种方式都可以直接通过 Java 调用 `databend-jdbc` 实现
 
+## 💻 代码示例
+
+### 1. INSERT (Bulk Insert)
+
+**适用场景：** 云上场景，对象存储可对应用开放
+
+```java
+Properties props = new Properties();
+props.setProperty("user", "root");
+props.setProperty("password", "password");
+
+try (Connection conn = DriverManager.getConnection("jdbc:databend://host:8000/db", props)) {
+    conn.setAutoCommit(false);
+
+    String sql = "INSERT INTO bench_insert (id, name, birthday, address, ...) VALUES (?, ?, ?, ?, ...)";
+
+    try (PreparedStatement ps = conn.prepareStatement(sql)) {
+        // 批量插入
+        for (int i = 0; i < batchSize; i++) {
+            ps.setLong(1, i);
+            ps.setString(2, "name_" + i);
+            ps.setString(3, "2024-01-01");
+            ps.setString(4, "address_" + i);
+            // ... 设置其他字段
+            ps.addBatch();
+        }
+
+        ps.executeBatch();  // 执行批量插入
+    }
+}
+```
+
+**特点：**
+- 使用 presign URL，数据直接写入对象存储
+- 适合云上场景，降低网络成本
+
+---
+
+### 2. INSERT_NO_PRESIGN
+
+**适用场景：** 私有化场景，对象存储不能直接对应用开放
+
+```java
+Properties props = new Properties();
+props.setProperty("user", "root");
+props.setProperty("password", "password");
+props.setProperty("presigned_url_disabled", "true");  // 关键配置：禁用 presign
+
+try (Connection conn = DriverManager.getConnection("jdbc:databend://host:8000/db", props)) {
+    conn.setAutoCommit(false);
+
+    String sql = "INSERT INTO bench_insert (id, name, birthday, ...) VALUES (?, ?, ?, ...)";
+
+    try (PreparedStatement ps = conn.prepareStatement(sql)) {
+        for (int i = 0; i < batchSize; i++) {
+            ps.setLong(1, i);
+            ps.setString(2, "name_" + i);
+            // ... 设置其他字段
+            ps.addBatch();
+        }
+
+        ps.executeBatch();
+    }
+}
+```
+
+**特点：**
+- 只需在连接串中加 `presigned_url_disabled=true`，无需其他改动
+- 数据通过 Databend 节点转发到对象存储
+
+---
+
+### 3. STREAMING_LOAD
+
+**适用场景：** 私有化实时写入，支持多种格式
+
+```java
+import com.databend.jdbc.DatabendConnection;
+import com.databend.jdbc.DatabendConnectionExtension;
+
+Properties props = new Properties();
+props.setProperty("user", "root");
+props.setProperty("password", "password");
+
+try (Connection conn = DriverManager.getConnection("jdbc:databend://host:8000/db", props)) {
+    DatabendConnection databendConn = conn.unwrap(DatabendConnection.class);
+
+    // 构造 CSV 数据
+    String csvData = """
+        1,batch_1,name_1,2024-01-01,address_1,...
+        2,batch_1,name_2,2024-01-01,address_2,...
+        3,batch_1,name_3,2024-01-01,address_3,...
+        """;
+
+    byte[] payload = csvData.getBytes(StandardCharsets.UTF_8);
+
+    try (InputStream in = new ByteArrayInputStream(payload)) {
+        String sql = "INSERT INTO bench_insert FROM @_databend_load FILE_FORMAT=(type=CSV)";
+
+        int loaded = databendConn.loadStreamToTable(
+            sql,
+            in,
+            payload.length,
+            DatabendConnectionExtension.LoadMethod.STREAMING
+        );
+
+        System.out.println("Loaded rows: " + loaded);
+    }
+}
+```
+
+**特点：**
+- 使用特殊 stage `@_databend_load`，直接流式加载
+- 支持 CSV/NDJSON/Parquet/Orc 等格式
+- 吞吐随 batch 增大快速提升
+
+---
+
+### 4. STAGE_LOAD (Copy Into)
+
+**适用场景：** 大批量数据加载，最高性能
+
+```java
+import org.apache.opendal.AsyncOperator;
+
+// 1. 创建 S3 Operator (使用 OpenDAL)
+Map<String, String> conf = new HashMap<>();
+conf.put("bucket", "my-bucket");
+conf.put("endpoint", "http://s3-endpoint:9000");
+conf.put("access_key_id", "access_key");
+conf.put("secret_access_key", "secret_key");
+
+try (AsyncOperator op = AsyncOperator.of("s3", conf);
+     Connection conn = DriverManager.getConnection("jdbc:databend://host:8000/db", user, password)) {
+
+    // 2. 创建 External Stage
+    String createStage = """
+        CREATE STAGE IF NOT EXISTS my_stage
+        URL='s3://my-bucket/data/'
+        CONNECTION=(
+            endpoint_url = 'http://s3-endpoint:9000'
+            access_key_id = 'access_key'
+            secret_access_key = 'secret_key'
+        )
+        """;
+    conn.createStatement().execute(createStage);
+
+    // 3. 写入数据到对象存储
+    String csvData = "1,name1,2024-01-01,...\n2,name2,2024-01-01,...\n";
+    byte[] payload = csvData.getBytes(StandardCharsets.UTF_8);
+    op.write("batch_001.csv", payload).join();
+
+    // 4. 使用 COPY INTO 批量加载
+    String copySql = """
+        COPY INTO bench_insert
+        FROM @my_stage
+        PATTERN='.*\\.csv'
+        FILE_FORMAT=(type=CSV)
+        PURGE=TRUE
+        """;
+    conn.createStatement().execute(copySql);
+}
+```
+
+**特点：**
+- 数据先写对象存储，再批量加载，充分利用对象存储并行能力
+- 云上场景节省网络成本（对象存储读写不收费）
+
+---
 
 ## 本次测试方案
 
-本次利用 Java 调用 databend-jdbc 实现数据写入，在程序中构造出表结构及对应的 mock 数据，分别使用上述四种形态。测试环境借助某集团的国产信创环境进行压测。
+- **平台：** 某集团国产信创环境
+- **工具：** Java + databend-jdbc
 
 压测程序借助 AI 自动生成，这里不再赘述，可直接参考脚本： https://github.com/wubx/databend_ingestion/tree/main/db_ingestion
 
 ### 表结构
+- **数据：** Mock 数据，23 个字段（包含 VARCHAR、DATE、TIMESTAMP 等类型）
+
 ```
                 CREATE OR REPLACE TABLE bench_insert (
                     id BIGINT,
