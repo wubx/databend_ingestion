@@ -270,10 +270,9 @@ done
 ### STAGE_LOAD (Copy Into) 性能
 ![](https://raw.githubusercontent.com/wubx/databend_ingestion/refs/heads/main/img/stage_load_copyRows.png)
 - STAGE_LOAD 的 COPY throughput 处于另一个量级：batch=20k 时即达到 800k rows/s，50k 批稳定在 694k rows/s。整个阶段的总耗时受 stage 写入 + copy 启动占比影响更大，但单次 COPY 的吞吐无可比拟。
+
 **关键发现：**
-- **STAGE_LOAD** 的 COPY 吞吐处于另一个量级：
-  - 20k batch: **800k rows/s**
-  - 50k batch: **694k rows/s**
+- COPY INTO 容易受到网络带宽瓶颈的限制
 - 整体耗时受 stage 写入 + copy 启动开销影响，但单次 COPY 的吞吐无可比拟
 
 ### 四种方式综合对比
