@@ -74,17 +74,21 @@ done
 
 ![](https://raw.githubusercontent.com/wubx/databend_ingestion/refs/heads/main/img/combined_ingest_throughput.png)
 
-把几种方式放到一块对比，可以看出来 stage_load 方式是遥遥领先于其它方式。
+把几种方式放到一块对比，可以看出来 stage_load (copy into) 方式是遥遥领先于其它方式。
+
+> copy into （stage_load) 这个方式的数据摄入，在数据源足够的情况下，每秒可以达到 100万行+ 也问题不大。
+> 例如： 在 3 个节点的集群数据足够的情况下，每秒达到：230万+行/S 的速度摄入。
+> 10000 rows read in 84.816 sec. Processed 200.19 million rows, 143.15 GiB (2.36 million rows/s, 1.69 GiB/s)
 
 
 ## 几种方式选择的依据
-看完上述数据，大家都会问：我该怎么选？是追求最高性能的 stage_load，还是图个方便？对于云上场景，还必须额外考虑“怎么能省钱”（面向金钱编程，是云上开发必修课）。
+看完上述数据，大家都会问：我该怎么选？是追求最高性能的 stage_load（copy into），还是图个方便？对于云上场景，还必须额外考虑“怎么能省钱”（面向金钱编程，是云上开发必修课）。
 
 ### 私有化 Databend 数据写入方式选择参考
-在私有化环境下，我通常建议“怎么方便怎么来”，让开发者更快交付、业务更稳定是第一原则。从上面的图可以看到，各种方式的吞吐都能轻松达到秒级 3 万行以上，能满足业务就行。
+在私有化环境下，我通常建议“怎么方便怎么来”，让开发者更快交付、业务更稳定是第一原则。从上面的图可以看到，各种方式的吞吐都能轻松达到秒级 3 万行以上，海量的数据每秒也可以轻松百万行的数据摄入，能满足业务就行。
 
-- 没有其它原因，怎么简单怎么来，但写入尽量 batch ， 可以减少 Databend 的 compact 开销
-- 对象存储无法对应用开放时，可选 streaming_load 或 insert_no_presign。更推荐 insert_no_presign，只需在连接串中加 `presigned_url_disabled=true`，其它配置无需变。如果性能仍不满足，再考虑 streaming_load。
+- 没有其它原因，怎么简单怎么来，但是写入尽量 batch ， 可以减少 Databend 的 compact 开销
+- 对象存储无法对应用开放时，可选 streaming_load 或 insert_no_presign。两者中 insert_no_presign，只需在连接串中加 `presigned_url_disabled=true`，其它配置无需变。如果性能仍不满足，再考虑 streaming_load。
 - 单机网卡已经成为瓶颈时，可通过 stage_load 利用 OpenDAL 先把数据写入对象存储，再批量加载；可使用多台 Databend 并行加载，对象存储本身也能横向扩展，从而轻松实现秒级百万行加载。
 
 ### 公有云上 Databend 数据写入方式选择参考
